@@ -21,6 +21,10 @@ public class Jogador{
 		System.out.println("Digite seu nome: ");
 		this.nome = nome;
 	}
+	
+	public void setPontos(int pontos) {
+		this.pontos += pontos;
+	}
 
 	@Override
 	public String toString() {
