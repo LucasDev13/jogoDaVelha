@@ -204,12 +204,10 @@ public class JogoDaVelha {
 	}
 	
 	public int getDimensao() {
-		System.out.println(dimensao);
 		return dimensao;
 	}
 
 	public int getQtdJogadas() {
-		System.out.println(qtdJogadas);
 		return qtdJogadas;
 	}	
 	public boolean getVencedor() {

@@ -12,10 +12,10 @@ public class Principal {
 		do {
 			//Instanciando o jogador1:
 			System.out.println("Digite o nome do jogador 1: ");
-			Jogador j1 = new Jogador(teclado.nextLine());
+			Jogador j1 = new Jogador(teclado.next());
 			//Instanciando o jogador2:
 			System.out.println("Digite o nome do jogador 2: ");
-			Jogador j2 = new Jogador(teclado.nextLine());
+			Jogador j2 = new Jogador(teclado.next());
 			
 			//Instanciando o tabuleiro:
 			System.out.println("Digite as dimensões do tabuleiro: ");
